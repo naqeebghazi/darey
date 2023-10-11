@@ -133,14 +133,6 @@ Or undo this operation with:
 git switch -
 ```
 
-Output of cat ~/.ssh/id_ed25519.pub (public key):  
-
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINZWZ9e+MvdRva2mSiILLqld2TUtT5WjGhQHcaoSh2a/ [naqeeb.ghazi@capgemini.com](mailto:naqeeb.ghazi@capgemini.com)
-
-Private key: 
-
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW QyNTUxOQAAACDWVmfXvjL3Ub2tpkoiCy6pXdk1LU+VoxoUB3GqEodmvwAAAKC0WEhttFhI bQAAAAtzc2gtZWQyNTUxOQAAACDWVmfXvjL3Ub2tpkoiCy6pXdk1LU+VoxoUB3GqEodmvw AAAED1SWn6n6ULNHDUfyNF8nmByeDm8ur0eIEsEINXWzTMntZWZ9e+MvdRva2mSiILLqld 2TUtT5WjGhQHcaoSh2a/AAAAGm5hcWVlYi5naGF6aUBjYXBnZW1pbmkuY29tAQID
-
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f6db497-84a8-4ca3-a170-41193def6335/Untitled.png)
 
 Git merge:
