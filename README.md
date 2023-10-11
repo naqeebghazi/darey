@@ -133,8 +133,6 @@ Or undo this operation with:
 git switch -
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f6db497-84a8-4ca3-a170-41193def6335/Untitled.png)
-
 Git merge:
 
 I have two branches, `email-4437` and `develop`
@@ -181,30 +179,6 @@ git checkout -b <newBranchName>
 
 https://www.git-tower.com/learn/git/faq/create-branch
 
-Managing files:
-
-‹
-
-![Figure 1. umask structure](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6707f93d-9519-4733-97a8-b1b3597caf6a/Untitled.png)
-
-Figure 1. umask structure
-
-![Fig. 2 Changing colour/style of command prompt](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15bd75e2-73d1-47f9-a6d5-67f198109f03/Untitled.png)
-
-Fig. 2 Changing colour/style of command prompt
-
-![Fig. 3 Special permissions](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6349120d-f899-427a-aac8-541025264af2/Untitled.png)
-
-Fig. 3 Special permissions
-
-![Fig. 3](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af7a378e-750a-4dab-8009-1558d87fb16d/Untitled.png)
-
-Fig. 3
-
-![Fig. 4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb5a8ff8-fc15-4a38-b636-ba0392f46836/Untitled.png)
-
-Fig. 4
-
 ```bash
 #Create successive folders - parents and child:
 mkdir -p /tmp/asia/india/bangla
@@ -215,8 +189,6 @@ rm -r /tmp/myd
 #copy a directory and all its contents:
 cp -r ./dir1 /tmp/dir2
 ```
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91ed8f06-82c1-43b2-a7d9-c73cacd85547/Untitled.png)
 
 ```bash
 
@@ -384,58 +356,3 @@ grep '[[:alnum:]+\.\_\-*@[[:alnum:]+\.\_\-]*' filename
 sed -n 's/replaceTargetString/withReplacementString' quotes    # -n option only shows the lines that have been modified, s/ means string to be replaced
 sed -n 's/replaceTargetString/withReplacementString/p' quotes  # /p = print the lines from the patterns space
 
-#AWK
-
- 
-
-```
-
-[Example .bashrc profile](https://www.notion.so/Example-bashrc-profile-fa950d0efa784ae5a412f6df6c8c13d8?pvs=21)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/609f132f-6193-40a8-b8b7-f0fa77f33a3d/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c968463-3ffd-4c68-a209-3d8c9f52f16f/Untitled.png)
-
-A systemd service is configured via system unit files located at /etc/systemd/system.
-
-Configure your app to run as a service:
-
-1. Go to /ect/systemd/system and create a unit file and name the file (e.g. my_app.service)
-2. Inside the file write the section below for [Service] etc
-3. Then run the last two commands
-4. Check the service via `systemctl status my_app`
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cd23c15-2dfd-44d8-aedc-abced16d891c/Untitled.png)
-
-To configure it to run automatically when the system boots up:
-
-Configure within the unit file for the service: [Install] section
-
-Then to enable at every boot up: `systemctl enable my_app`
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22d95e86-745a-4006-929d-6845b2c01070/Untitled.png)
-
-```bash
-[Unit]
-Description=My python web application
-# This is metadata for the service
-
-#The below section are actions that the service exhibits:
-[Service]
-ExecStart = /usr/bin/python3 /opt/code/my_app.py
-ExecStartPre=/opt/code/configure_db.sh #This starts before the service starts
-ExecStartPost=/opt/code/email_status.sh #This starts after the service starts
-Restart=always #this ensures the service always restarts when it fails
-
-[Install]
-WantedBy=multi-user.target
-
-```
-
-```bash
-sudo apt update && sudo apt upgrade -y
-```
-
-Setting up different SSH hosts on VSCode:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6bd9723e-15d1-4b9b-8c50-334bd7f36965/61ff4559-0948-4272-9c47-b0b60b07a3cb/Untitled.png)
