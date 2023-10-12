@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Define the folder containing the images
 image_folder="./images"
