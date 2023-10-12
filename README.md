@@ -7,7 +7,7 @@ Linux Basics
 - **sudo yum update**
   > A command using sudo (so it runs as an admin operation) to run updates for the package manager Yum which helps updating the system software
 
-![Image](images/Screenshot%2023-10-11%at%22.04.40.png)
+![Image](Images/Screenshot%202023-10-11%20at%2022.04.40.png)
 
 ![Image](images/Screenshot%2023-10-11%at%22.09.54.png)
 
