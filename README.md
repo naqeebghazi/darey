@@ -119,12 +119,11 @@ Linux Basics
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.38.23.png)
 
-- **history**
-  > Displays last commands used by user
-
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.39.12.png)
 
+- **history**
+  > Displays last commands used by user
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.38.45.png)
 
