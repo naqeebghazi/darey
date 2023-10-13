@@ -84,32 +84,49 @@ Linux Basics
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.06.24.png)
 
-
+- **adduser**
+  > Adds a new user to the system
+  > last few lines of the directory /etc/passwd lists all the users in the system
+  
 ![Image](Images/Screenshot%202023-10-11%20at%2023.09.05.png)
 
+- **jobs**
+  > Displays currently running jobs/tasks and most recently run tasks that have now stopped. 
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.17.21.png)
 
+- **ping**
+  > Checks network connectivity between host and a different IP address (private or public)
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.18.13.png)
 
+- **wget**
+  > Displays the contents of a URL
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.19.44.png)
 
+- **uname**
+  > Displays name of host operating system
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.37.32.png)
 
+- **top**
+  > The top program periodically displays a sorted list of system processes
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.38.14.png)
 
+- **history**
+  > Displays last commands used by user
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.38.23.png)
 
-
-![Image](Images/Screenshot%202023-10-11%20at%2023.38.45.png)
-
+- **uname**
+  > Displays name of host operating system
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.39.12.png)
+
+
+![Image](Images/Screenshot%202023-10-11%20at%2023.38.45.png)
 
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.39.21.png)
