@@ -144,16 +144,18 @@ Linux Basics
 
 
 - **su**
-  > Super User. Do tasks in root user mode. 
+  > Super User. Do tasks in root user mode.
+  > Second image is to return to admin mode
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.51.42.png)
-
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.52.01.png)
 
 
 ![Image](Images/Screenshot%202023-10-12%20at%2000.16.07.png)
 
-
+- **ps**
+  > shows running processes
+  
 ![Image](Images/Screenshot%202023-10-12%20at%2000.16.35.png)
 
