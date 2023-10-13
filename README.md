@@ -125,12 +125,13 @@ Linux Basics
 - **history**
   > Displays last commands used by user
 
+- **echo**
+  > Prints to display whatver was typed 
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.39.40.png)
 
-
-![Image](Images/Screenshot%202023-10-11%20at%2023.41.10.png)
-
+- **userdel**
+  > deleted users from the system
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.41.18.png)
 
