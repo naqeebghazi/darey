@@ -13,6 +13,7 @@ Linux Basics
   >cteates a new empty file
 - **cat**
   > prints to screen what is in a file
+  
 ![Image](Images/Screenshot%202023-10-11%20at%2022.09.54.png)
 
 - **ls**
@@ -23,16 +24,19 @@ Linux Basics
 
 ![Image](Images/Screenshot%202023-10-11%20at%2022.21.55.png)
 
+
 ![Image](Images/Screenshot%202023-10-11%20at%2022.22.35.png)
 
 - **mkdir**
   > Creates a new empty directory
   > You can list the contents of the directory after using ls -al
+  
 ![Image](Images/Screenshot%202023-10-11%20at%2022.23.41.png)
 
 - **rm**
   > removes files
   > adding the flag -d enables the deletion of empty directories. The flag -r removes subdirectories too and -f forces the deletion and ignores any warnings for deletion
+  
 ![Image](Images/Screenshot%202023-10-11%20at%2022.24.27.png)
 
 
