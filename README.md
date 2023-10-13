@@ -135,15 +135,16 @@ Linux Basics
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.41.18.png)
 
+- **vim**
+  > editor for files
+
+![Image](Images/Screenshot%202023-10-11%20at%2023.43.17.png)
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.43.04.png)
 
 
-![Image](Images/Screenshot%202023-10-11%20at%2023.43.17.png)
-
-
-![Image](Images/Screenshot%202023-10-11%20at%2023.50.23.png)
-
+- **su**
+  > Super User. Do tasks in root user mode. 
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.51.42.png)
 
