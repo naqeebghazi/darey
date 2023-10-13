@@ -52,21 +52,35 @@ Linux Basics
 
 ![Image](Images/Screenshot%202023-10-11%20at%2022.32.57.png)
 
+- **df**
+  > A utility that displays statistics about the amount of free disk space on the specified mounted file system
 
 ![Image](Images/Screenshot%202023-10-11%20at%2022.34.52.png)
 
+- **cat**
+  > prints the contents of a file to the screen
 
 ![Image](Images/Screenshot%202023-10-11%20at%2022.35.20.png)
 
+- **du**
+  > utility displays the file system block usage for each file
 
 ![Image](Images/Screenshot%202023-10-11%20at%2022.37.20.png)
 
-
+- **head**
+  > Displays first 10 lines or a file
+  
 ![Image](Images/Screenshot%202023-10-11%20at%2022.41.35.png)
 
-
+- **diff**
+  > Displays a comparison between twop different files
+  > -y flag displays the contents side by side
+  
 ![Image](Images/Screenshot%202023-10-11%20at%2023.02.30.png)
 
+- **chmod**
+  > Changes the permissions of a file
+  > the 3 digit number determines what permissions are assigned to whome. 
 
 ![Image](Images/Screenshot%202023-10-11%20at%2023.06.24.png)
 
